@@ -21,7 +21,7 @@ UDP Hole Punching client &amp; server proxy
 
 - Wait for the person hosting to send you a host and port to connect to
 - Enter the host and port when prompted to by typing it and pressing `Enter`
-- In your game, connect to the shown host and port (**not the host and port your peer gave you**) 
+- In your game, connect to the shown host and port given on the terminal(**not the host and port your peer gave you**) 
 - Profit & play
 - When you're done playing with this peer, disconnect, and close the proxypunch window (start it again and repeat the process to play with someone else)
 - Next time you run proxypunch, you can simply press `Enter` to use the same settings as last time you connected
