@@ -5,7 +5,7 @@ import time
 import ipaddress
 import threading
 
-relayHost = ("delthas.fr:14761")
+relayHost = ("delthas.fr:14764")
 defaultPort = 41254
 localIpv4 = ipaddress.ip_network('127.0.0.0/8', strict=False)
 localIpv6 = ipaddress.ip_network('fc00::/7', strict=False)
