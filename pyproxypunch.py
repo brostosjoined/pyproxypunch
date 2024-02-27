@@ -82,7 +82,6 @@ def server(port):
         print("Connecting...")
         localAddr = ("127.0.0.1", port)
         relayAddr = socket.getaddrinfo(*relayHost.split(':'), socket.AF_INET if '4' in 'udp4' else socket.AF_INET6, socket.SOCK_DGRAM)[0][4]
-        print(relayAddr)
         chRelay = True
         def relay():
             relayPayload = struct.pack('>BB', port >> 8, port % 256)
@@ -144,13 +143,13 @@ def server(port):
         sys.exit()
 
 def main():
-    print("proxypunch python port by brostos(Original by delthas- https://github.com/delthas/proxypunch)")
-    print("Mode? s(erver) / c(lient)")
+    ("proxypunch python port by brostos(Original by delthas- https://github.com/delthas/proxypunch)")
+    ("Mode? s(erver) / c(lient)")
 
     try:
         mode = input()
         if mode == "s" or mode == "server":
-            print("Port?")
+            ("Port?")
             port = int(input())
             server(port)
         elif mode == "c" or mode == "client":
