@@ -143,8 +143,8 @@ def server(port):
         sys.exit()
 
 def main():
-    ("proxypunch python port by brostos(Original by delthas- https://github.com/delthas/proxypunch)")
-    ("Mode? s(erver) / c(lient)")
+    print("proxypunch python port by brostos(Original by delthas- https://github.com/delthas/proxypunch)")
+    print("Mode? s(erver) / c(lient)")
 
     try:
         mode = input()
