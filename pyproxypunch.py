@@ -149,7 +149,7 @@ def main():
     try:
         mode = input()
         if mode == "s" or mode == "server":
-            ("Port?")
+            print("Port?")
             port = int(input())
             server(port)
         elif mode == "c" or mode == "client":
